@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир Книг - Ваша онлайн библиотека</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Мир Книг</div>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#catalog">Каталог</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Добро пожаловать в Мир Книг</h1>
+            <p>Откройте для себя новые миры и истории</p>
+            <a href="#catalog" class="cta-button">Начать чтение</a>
+        </section>
+
+        <section id="catalog" class="book-catalog">
+            <h2>Наш каталог</h2>
+            <div class="book-grid" id="bookGrid">
+                <!-- Книги будут добавлены с помощью JavaScript -->
+            </div>
+        </section>
+
+        <section id="about" class="about-us">
+            <h2>О нас</h2>
+            <p>Мы - команда страстных любителей книг, стремящихся сделать чтение доступным и увлекательным для каждого.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Свяжитесь с нами</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш email" required>
+                <textarea placeholder="Ваше сообщение" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Мир Книг. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
